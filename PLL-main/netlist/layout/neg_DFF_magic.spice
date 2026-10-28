@@ -1,0 +1,54 @@
+* NGSPICE file created from neg_DFF_magic.ext - technology: gf180mcuD
+
+.subckt pmos_3p3_VRY6F7 a_272_n112# a_56_n112# a_n272_n156# a_160_n156# a_n56_n156#
++ a_n360_n112# w_n446_n242# a_n160_n112#
+X0 a_56_n112# a_n56_n156# a_n160_n112# w_n446_n242# pfet_03v3 ad=0.2912p pd=1.64u as=0.2912p ps=1.64u w=1.12u l=0.56u
+X1 a_272_n112# a_160_n156# a_56_n112# w_n446_n242# pfet_03v3 ad=0.4928p pd=3.12u as=0.2912p ps=1.64u w=1.12u l=0.56u
+X2 a_n160_n112# a_n272_n156# a_n360_n112# w_n446_n242# pfet_03v3 ad=0.2912p pd=1.64u as=0.4928p ps=3.12u w=1.12u l=0.56u
+.ends
+
+.subckt pmos_3p3_VH67F7 a_380_n112# a_164_n112# a_n164_n156# a_n380_n156# a_52_n156#
++ a_n268_n112# w_n554_n242# a_268_n156# a_n52_n112# a_n468_n112#
+X0 a_164_n112# a_52_n156# a_n52_n112# w_n554_n242# pfet_03v3 ad=0.2912p pd=1.64u as=0.2912p ps=1.64u w=1.12u l=0.56u
+X1 a_380_n112# a_268_n156# a_164_n112# w_n554_n242# pfet_03v3 ad=0.4928p pd=3.12u as=0.2912p ps=1.64u w=1.12u l=0.56u
+X2 a_n268_n112# a_n380_n156# a_n468_n112# w_n554_n242# pfet_03v3 ad=0.2912p pd=1.64u as=0.4928p ps=3.12u w=1.12u l=0.56u
+X3 a_n52_n112# a_n164_n156# a_n268_n112# w_n554_n242# pfet_03v3 ad=0.2912p pd=1.64u as=0.2912p ps=1.64u w=1.12u l=0.56u
+.ends
+
+.subckt nmos_3p3_F2UGVV a_164_n112# a_n164_n156# a_n252_n112# a_52_n156# a_n52_n112#
++ VSUBS
+X0 a_164_n112# a_52_n156# a_n52_n112# VSUBS nfet_03v3 ad=0.4928p pd=3.12u as=0.2912p ps=1.64u w=1.12u l=0.56u
+X1 a_n52_n112# a_n164_n156# a_n252_n112# VSUBS nfet_03v3 ad=0.2912p pd=1.64u as=0.4928p ps=3.12u w=1.12u l=0.56u
+.ends
+
+.subckt inverter_magic VIN VOUT VDD VSS
+Xpmos_3p3_VH67F7_0 VDD VOUT VIN VIN VIN VOUT VDD VIN VDD VDD pmos_3p3_VH67F7
+Xnmos_3p3_F2UGVV_0 VSS VIN VSS VIN VOUT VSS nmos_3p3_F2UGVV
+.ends
+
+.subckt nmos_3p3_G2UGVV a_272_n112# a_56_n112# a_n272_n156# a_160_n156# a_n56_n156#
++ a_n360_n112# a_n160_n112# VSUBS
+X0 a_56_n112# a_n56_n156# a_n160_n112# VSUBS nfet_03v3 ad=0.2912p pd=1.64u as=0.2912p ps=1.64u w=1.12u l=0.56u
+X1 a_272_n112# a_160_n156# a_56_n112# VSUBS nfet_03v3 ad=0.4928p pd=3.12u as=0.2912p ps=1.64u w=1.12u l=0.56u
+X2 a_n160_n112# a_n272_n156# a_n360_n112# VSUBS nfet_03v3 ad=0.2912p pd=1.64u as=0.4928p ps=3.12u w=1.12u l=0.56u
+.ends
+
+.subckt tg_magic VDD OUT IN CLK VSS
+Xpmos_3p3_VRY6F7_0 OUT IN inverter_magic_0/VOUT inverter_magic_0/VOUT inverter_magic_0/VOUT
++ IN VDD OUT pmos_3p3_VRY6F7
+Xinverter_magic_0 CLK inverter_magic_0/VOUT VDD VSS inverter_magic
+Xnmos_3p3_G2UGVV_0 OUT IN CLK CLK CLK IN OUT VSS nmos_3p3_G2UGVV
+.ends
+
+.subckt neg_DFF_magic CLK D Q VDD VSS
+Xtg_magic_2 VDD tg_magic_2/OUT tg_magic_2/IN CLK VSS tg_magic
+Xtg_magic_3 VDD tg_magic_3/OUT D CLK VSS tg_magic
+Xinverter_magic_2 tg_magic_2/OUT Q VDD VSS inverter_magic
+Xinverter_magic_3 Q tg_magic_2/IN VDD VSS inverter_magic
+Xinverter_magic_4 tg_magic_1/IN tg_magic_0/IN VDD VSS inverter_magic
+Xinverter_magic_5 CLK tg_magic_1/CLK VDD VSS inverter_magic
+Xinverter_magic_6 tg_magic_3/OUT tg_magic_1/IN VDD VSS inverter_magic
+Xtg_magic_0 VDD tg_magic_3/OUT tg_magic_0/IN tg_magic_1/CLK VSS tg_magic
+Xtg_magic_1 VDD tg_magic_2/OUT tg_magic_1/IN tg_magic_1/CLK VSS tg_magic
+.ends
+

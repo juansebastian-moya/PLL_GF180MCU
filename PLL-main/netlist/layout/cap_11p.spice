@@ -1,0 +1,16 @@
+* NGSPICE file created from cap_11p.ext - technology: gf180mcuD
+
+.subckt cap_mim_2p0fF_VGWXT2 m4_3374_n6300# m4_n3120_n6180# m4_n9854_n6300# m4_3494_n6180#
++ m4_n3240_n6300# m4_n9734_n6180#
+X0 m4_n3120_n6180# m4_n3240_n6300# cap_mim_2f0_m4m5_noshield c_width=30u c_length=30u
+X1 m4_3494_n6180# m4_3374_n6300# cap_mim_2f0_m4m5_noshield c_width=30u c_length=30u
+X2 m4_n9734_n6180# m4_n9854_n6300# cap_mim_2f0_m4m5_noshield c_width=30u c_length=30u
+X3 m4_n9734_n6180# m4_n9854_n6300# cap_mim_2f0_m4m5_noshield c_width=30u c_length=30u
+X4 m4_n3120_n6180# m4_n3240_n6300# cap_mim_2f0_m4m5_noshield c_width=30u c_length=30u
+X5 m4_3494_n6180# m4_3374_n6300# cap_mim_2f0_m4m5_noshield c_width=30u c_length=30u
+.ends
+
+.subckt cap_11p P M
+Xcap_mim_2p0fF_VGWXT2_1 M P M P M P cap_mim_2p0fF_VGWXT2
+.ends
+

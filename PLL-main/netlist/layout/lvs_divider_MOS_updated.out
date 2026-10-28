@@ -1,0 +1,164 @@
+Flattening unmatched subcell OR_magic in circuit x7b_divider_magic (0)(2 instances)
+Flattening unmatched subcell pmos_3p3_V9Y6F7 in circuit x7b_divider_magic (0)(12 instances)
+Flattening unmatched subcell pmos_3p3_VZX6F7 in circuit x7b_divider_magic (0)(4 instances)
+Flattening unmatched subcell nmos_3p3_A2UGVV in circuit x7b_divider_magic (0)(6 instances)
+Flattening unmatched subcell x7b_counter in circuit x7b_divider_magic (0)(1 instance)
+Flattening unmatched subcell NOR_gate in circuit x7b_divider_magic (0)(2 instances)
+Flattening unmatched subcell pmos_3p3_VZX6F7 in circuit x7b_divider_magic (0)(8 instances)
+Flattening unmatched subcell nmos_3p3_F2UGVV in circuit x7b_divider_magic (0)(2 instances)
+Flattening unmatched subcell inverter_magic in circuit x7b_divider_magic (0)(1 instance)
+Flattening unmatched subcell pmos_3p3_VH67F7 in circuit x7b_divider_magic (0)(1 instance)
+Flattening unmatched subcell nmos_3p3_F2UGVV in circuit x7b_divider_magic (0)(1 instance)
+Flattening unmatched subcell NAND_magic in circuit x7b_divider_magic (0)(1 instance)
+Flattening unmatched subcell pmos_3p3_VZX6F7 in circuit x7b_divider_magic (0)(2 instances)
+Flattening unmatched subcell nmos_3p3_F2UGVV in circuit x7b_divider_magic (0)(2 instances)
+Flattening unmatched subcell x3_inp_AND_magic in circuit x7b_divider_magic (0)(1 instance)
+Flattening unmatched subcell pmos_3p3_V9Y6F7 in circuit x7b_divider_magic (0)(8 instances)
+Flattening unmatched subcell nmos_3p3_A2UGVV in circuit x7b_divider_magic (0)(10 instances)
+Flattening unmatched subcell pmos_3p3_Z9Y6F7 in circuit x7b_divider_magic (0)(2 instances)
+Flattening unmatched subcell x3_inp_NOR in circuit x7b_divider_magic (0)(1 instance)
+Flattening unmatched subcell pmos_3p3_V9Y6F7 in circuit x7b_divider_magic (0)(18 instances)
+Flattening unmatched subcell nmos_3p3_A2UGVV in circuit x7b_divider_magic (0)(3 instances)
+Flattening unmatched subcell DFF_magic in circuit x7b_divider_magic (0)(2 instances)
+Flattening unmatched subcell tg_magic in circuit x7b_divider_magic (0)(8 instances)
+Flattening unmatched subcell pmos_3p3_VRY6F7 in circuit x7b_divider_magic (0)(8 instances)
+Flattening unmatched subcell inverter_magic in circuit x7b_divider_magic (0)(18 instances)
+Flattening unmatched subcell pmos_3p3_VH67F7 in circuit x7b_divider_magic (0)(18 instances)
+Flattening unmatched subcell nmos_3p3_F2UGVV in circuit x7b_divider_magic (0)(18 instances)
+Flattening unmatched subcell nmos_3p3_G2UGVV in circuit x7b_divider_magic (0)(8 instances)
+Flattening unmatched subcell MDFF in circuit x7b_divider_magic (0)(7 instances)
+Flattening unmatched subcell tspc2_magic in circuit x7b_divider_magic (0)(7 instances)
+Flattening unmatched subcell pmos_3p3_V9Y6F7 in circuit x7b_divider_magic (0)(98 instances)
+Flattening unmatched subcell nmos_3p3_F2UGVV in circuit x7b_divider_magic (0)(14 instances)
+Flattening unmatched subcell nmos_3p3_A2UGVV in circuit x7b_divider_magic (0)(42 instances)
+Flattening unmatched subcell mux_magic in circuit x7b_divider_magic (0)(22 instances)
+Flattening unmatched subcell AND2_magic in circuit x7b_divider_magic (0)(44 instances)
+Flattening unmatched subcell pmos_3p3_VZX6F7 in circuit x7b_divider_magic (0)(132 instances)
+Flattening unmatched subcell nmos_3p3_F2UGVV in circuit x7b_divider_magic (0)(44 instances)
+Flattening unmatched subcell nmos_3p3_A2UGVV in circuit x7b_divider_magic (0)(132 instances)
+Flattening unmatched subcell pmos_3p3_VRCSD7 in circuit x7b_divider_magic (0)(22 instances)
+Flattening unmatched subcell OR_magic in circuit x7b_divider_magic (0)(22 instances)
+Flattening unmatched subcell pmos_3p3_V9Y6F7 in circuit x7b_divider_magic (0)(132 instances)
+Flattening unmatched subcell pmos_3p3_VZX6F7 in circuit x7b_divider_magic (0)(44 instances)
+Flattening unmatched subcell nmos_3p3_A2UGVV in circuit x7b_divider_magic (0)(66 instances)
+Flattening unmatched subcell nmos_3p3_G2UGVV in circuit x7b_divider_magic (0)(22 instances)
+Flattening unmatched subcell buffer_magic in circuit x7b_divider_magic (0)(3 instances)
+Flattening unmatched subcell pmos_3p3_VRY6F7 in circuit x7b_divider_magic (0)(12 instances)
+Flattening unmatched subcell nmos_3p3_G2UGVV in circuit x7b_divider_magic (0)(6 instances)
+Flattening unmatched subcell divide_by_2 in circuit x7b_divider_magic (0)(2 instances)
+Flattening unmatched subcell tg_magic in circuit x7b_divider_magic (0)(8 instances)
+Flattening unmatched subcell pmos_3p3_VRY6F7 in circuit x7b_divider_magic (0)(8 instances)
+Flattening unmatched subcell inverter_magic in circuit x7b_divider_magic (0)(18 instances)
+Flattening unmatched subcell pmos_3p3_VH67F7 in circuit x7b_divider_magic (0)(18 instances)
+Flattening unmatched subcell nmos_3p3_F2UGVV in circuit x7b_divider_magic (0)(18 instances)
+Flattening unmatched subcell nmos_3p3_G2UGVV in circuit x7b_divider_magic (0)(8 instances)
+Flattening unmatched subcell p2_gen_magic in circuit x7b_divider_magic (0)(1 instance)
+Flattening unmatched subcell AND2_magic in circuit x7b_divider_magic (0)(2 instances)
+Flattening unmatched subcell pmos_3p3_VZX6F7 in circuit x7b_divider_magic (0)(6 instances)
+Flattening unmatched subcell nmos_3p3_F2UGVV in circuit x7b_divider_magic (0)(2 instances)
+Flattening unmatched subcell nmos_3p3_A2UGVV in circuit x7b_divider_magic (0)(6 instances)
+Flattening unmatched subcell xnor_magic in circuit x7b_divider_magic (0)(7 instances)
+Flattening unmatched subcell pmos_3p3_VZX6F7 in circuit x7b_divider_magic (0)(28 instances)
+Flattening unmatched subcell inverter_magic in circuit x7b_divider_magic (0)(14 instances)
+Flattening unmatched subcell pmos_3p3_VH67F7 in circuit x7b_divider_magic (0)(14 instances)
+Flattening unmatched subcell nmos_3p3_F2UGVV in circuit x7b_divider_magic (0)(14 instances)
+Flattening unmatched subcell nmos_3p3_A2UGVV in circuit x7b_divider_magic (0)(28 instances)
+Flattening unmatched subcell x3_inp_AND_magic in circuit x7b_divider_magic (0)(2 instances)
+Flattening unmatched subcell pmos_3p3_V9Y6F7 in circuit x7b_divider_magic (0)(16 instances)
+Flattening unmatched subcell nmos_3p3_A2UGVV in circuit x7b_divider_magic (0)(20 instances)
+Flattening unmatched subcell pmos_3p3_Z9Y6F7 in circuit x7b_divider_magic (0)(4 instances)
+Flattening unmatched subcell DFF_magic in circuit x7b_divider_magic (0)(1 instance)
+Flattening unmatched subcell tg_magic in circuit x7b_divider_magic (0)(4 instances)
+Flattening unmatched subcell pmos_3p3_VRY6F7 in circuit x7b_divider_magic (0)(4 instances)
+Flattening unmatched subcell inverter_magic in circuit x7b_divider_magic (0)(9 instances)
+Flattening unmatched subcell pmos_3p3_VH67F7 in circuit x7b_divider_magic (0)(9 instances)
+Flattening unmatched subcell nmos_3p3_F2UGVV in circuit x7b_divider_magic (0)(9 instances)
+Flattening unmatched subcell nmos_3p3_G2UGVV in circuit x7b_divider_magic (0)(4 instances)
+Flattening unmatched subcell p3_gen_magic in circuit x7b_divider_magic (0)(1 instance)
+Flattening unmatched subcell AND2_magic in circuit x7b_divider_magic (0)(2 instances)
+Flattening unmatched subcell pmos_3p3_VZX6F7 in circuit x7b_divider_magic (0)(6 instances)
+Flattening unmatched subcell nmos_3p3_F2UGVV in circuit x7b_divider_magic (0)(2 instances)
+Flattening unmatched subcell nmos_3p3_A2UGVV in circuit x7b_divider_magic (0)(6 instances)
+Flattening unmatched subcell xnor_magic in circuit x7b_divider_magic (0)(7 instances)
+Flattening unmatched subcell pmos_3p3_VZX6F7 in circuit x7b_divider_magic (0)(28 instances)
+Flattening unmatched subcell inverter_magic in circuit x7b_divider_magic (0)(15 instances)
+Flattening unmatched subcell pmos_3p3_VH67F7 in circuit x7b_divider_magic (0)(15 instances)
+Flattening unmatched subcell nmos_3p3_F2UGVV in circuit x7b_divider_magic (0)(15 instances)
+Flattening unmatched subcell nmos_3p3_A2UGVV in circuit x7b_divider_magic (0)(28 instances)
+Flattening unmatched subcell x3_inp_AND_magic in circuit x7b_divider_magic (0)(2 instances)
+Flattening unmatched subcell pmos_3p3_V9Y6F7 in circuit x7b_divider_magic (0)(16 instances)
+Flattening unmatched subcell nmos_3p3_A2UGVV in circuit x7b_divider_magic (0)(20 instances)
+Flattening unmatched subcell pmos_3p3_Z9Y6F7 in circuit x7b_divider_magic (0)(4 instances)
+Flattening unmatched subcell neg_DFF_magic in circuit x7b_divider_magic (0)(1 instance)
+Flattening unmatched subcell tg_magic in circuit x7b_divider_magic (0)(4 instances)
+Flattening unmatched subcell pmos_3p3_VRY6F7 in circuit x7b_divider_magic (0)(4 instances)
+Flattening unmatched subcell inverter_magic in circuit x7b_divider_magic (0)(9 instances)
+Flattening unmatched subcell pmos_3p3_VH67F7 in circuit x7b_divider_magic (0)(9 instances)
+Flattening unmatched subcell nmos_3p3_F2UGVV in circuit x7b_divider_magic (0)(9 instances)
+Flattening unmatched subcell nmos_3p3_G2UGVV in circuit x7b_divider_magic (0)(4 instances)
+Flattening unmatched subcell XNOR in circuit 7b_divider (1)(14 instances)
+Flattening unmatched subcell inverter_1 in circuit 7b_divider (1)(28 instances)
+Flattening unmatched subcell 3_inp_AND in circuit 7b_divider (1)(4 instances)
+Flattening unmatched subcell OR in circuit 7b_divider (1)(2 instances)
+Flattening unmatched subcell div_by_2 in circuit 7b_divider (1)(2 instances)
+Flattening unmatched subcell tg in circuit 7b_divider (1)(8 instances)
+Flattening unmatched subcell inverter in circuit 7b_divider (1)(19 instances)
+Flattening unmatched subcell 7b_counter_new in circuit 7b_divider (1)(1 instance)
+Flattening unmatched subcell NAND in circuit 7b_divider (1)(1 instance)
+Flattening unmatched subcell 3_inp_NOR in circuit 7b_divider (1)(1 instance)
+Flattening unmatched subcell DFF in circuit 7b_divider (1)(3 instances)
+Flattening unmatched subcell inverter in circuit 7b_divider (1)(16 instances)
+Flattening unmatched subcell tg in circuit 7b_divider (1)(12 instances)
+Flattening unmatched subcell inverter in circuit 7b_divider (1)(12 instances)
+Flattening unmatched subcell MOD_DFF_latest in circuit 7b_divider (1)(7 instances)
+Flattening unmatched subcell tspc_FF in circuit 7b_divider (1)(7 instances)
+Flattening unmatched subcell MUX in circuit 7b_divider (1)(22 instances)
+Flattening unmatched subcell AND in circuit 7b_divider (1)(48 instances)
+Flattening unmatched subcell OR in circuit 7b_divider (1)(22 instances)
+Flattening unmatched subcell 3_inp_AND in circuit 7b_divider (1)(1 instance)
+Flattening unmatched subcell NOR in circuit 7b_divider (1)(2 instances)
+Flattening unmatched subcell ned_DFF in circuit 7b_divider (1)(1 instance)
+Flattening unmatched subcell tg in circuit 7b_divider (1)(4 instances)
+Flattening unmatched subcell inverter in circuit 7b_divider (1)(9 instances)
+
+Class x7b_divider_magic (0):  Merged 1268 parallel devices.
+Class 7b_divider (1):  Merged 4 parallel devices.
+Subcircuit summary:
+Circuit 1: x7b_divider_magic               |Circuit 2: 7b_divider                      
+-------------------------------------------|-------------------------------------------
+pfet_03v3 (1402->478)                      |pfet_03v3 (482->478)                       
+nfet_03v3 (823->479)                       |nfet_03v3 (479)                            
+Number of devices: 957                     |Number of devices: 957                     
+Number of nets: 498                        |Number of nets: 498                        
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: x7b_divider_magic               |Circuit 2: 7b_divider                      
+-------------------------------------------|-------------------------------------------
+OUT1                                       |OUT1                                       
+D2_3                                       |D2_3                                       
+D2_4                                       |D2_4                                       
+D2_6                                       |D2_6                                       
+D2_2                                       |D2_2                                       
+D2_7                                       |D2_7                                       
+D2_5                                       |D2_5                                       
+Q7                                         |Q7                                         
+CLK                                        |CLK                                        
+Q2                                         |Q2                                         
+Q1                                         |Q1                                         
+Q3                                         |Q3                                         
+Q5                                         |Q5                                         
+Q6                                         |Q6                                         
+Q4                                         |Q4                                         
+D2_1                                       |D2_1                                       
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+LD                                         |LD                                         
+P2                                         |P2                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes x7b_divider_magic and 7b_divider are equivalent.
+
+Final result: Circuits match uniquely.
+.

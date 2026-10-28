@@ -1,0 +1,7 @@
+** sch_path: /home/moya/Documents/EuroCDP/ms_IPs/PLL/PLL-main/schematic/xschem/cap_11p.sch
+**.subckt cap_11p P M
+*.iopin P
+*.iopin M
+XC2 P M cap_mim_2f0_m4m5_noshield c_width=30e-6 c_length=30e-6 m=6
+**.ends
+.end

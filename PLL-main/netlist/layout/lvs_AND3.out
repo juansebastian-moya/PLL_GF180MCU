@@ -1,0 +1,30 @@
+Flattening unmatched subcell pmos_3p3_V9Y6F7 in circuit x3_inp_AND_magic (0)(8 instances)
+Flattening unmatched subcell nmos_3p3_A2UGVV in circuit x3_inp_AND_magic (0)(10 instances)
+Flattening unmatched subcell pmos_3p3_Z9Y6F7 in circuit x3_inp_AND_magic (0)(2 instances)
+
+Class x3_inp_AND_magic (0):  Merged 10 parallel devices.
+Subcircuit summary:
+Circuit 1: x3_inp_AND_magic                |Circuit 2: 3_inp_AND                       
+-------------------------------------------|-------------------------------------------
+pfet_03v3 (10->6)                          |pfet_03v3 (6)                              
+nfet_03v3 (10->4)                          |nfet_03v3 (4)                              
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: x3_inp_AND_magic                |Circuit 2: 3_inp_AND                       
+-------------------------------------------|-------------------------------------------
+C                                          |C                                          
+A                                          |A                                          
+B                                          |B                                          
+VSS                                        |VSS                                        
+VOUT                                       |VOUT                                       
+VDD                                        |VDD                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes x3_inp_AND_magic and 3_inp_AND are equivalent.
+
+Final result: Circuits match uniquely.
+.

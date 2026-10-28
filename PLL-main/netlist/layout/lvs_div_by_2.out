@@ -1,0 +1,33 @@
+Flattening unmatched subcell tg_magic in circuit divide_by_2 (0)(4 instances)
+Flattening unmatched subcell pmos_3p3_VRY6F7 in circuit divide_by_2 (0)(4 instances)
+Flattening unmatched subcell inverter_magic in circuit divide_by_2 (0)(9 instances)
+Flattening unmatched subcell pmos_3p3_VH67F7 in circuit divide_by_2 (0)(9 instances)
+Flattening unmatched subcell nmos_3p3_F2UGVV in circuit divide_by_2 (0)(9 instances)
+Flattening unmatched subcell nmos_3p3_G2UGVV in circuit divide_by_2 (0)(4 instances)
+Flattening unmatched subcell tg in circuit div_by_2 (1)(4 instances)
+Flattening unmatched subcell inverter in circuit div_by_2 (1)(9 instances)
+
+Class divide_by_2 (0):  Merged 52 parallel devices.
+Subcircuit summary:
+Circuit 1: divide_by_2                     |Circuit 2: div_by_2                        
+-------------------------------------------|-------------------------------------------
+pfet_03v3 (48->13)                         |pfet_03v3 (13)                             
+nfet_03v3 (30->13)                         |nfet_03v3 (13)                             
+Number of devices: 26                      |Number of devices: 26                      
+Number of nets: 14                         |Number of nets: 14                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: divide_by_2                     |Circuit 2: div_by_2                        
+-------------------------------------------|-------------------------------------------
+Q                                          |Q                                          
+CLK                                        |CLK                                        
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes divide_by_2 and div_by_2 are equivalent.
+
+Final result: Circuits match uniquely.
+.

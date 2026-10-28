@@ -1,0 +1,74 @@
+* NGSPICE file created from PFD_2.ext - technology: gf180mcuD
+
+.subckt nmos_3p3_3JEA4B a_254_n50# a_n154_n50# a_n342_n50# a_n254_n94# a_50_n50# a_n50_n94#
++ a_154_n94# VSUBS
+X0 a_50_n50# a_n50_n94# a_n154_n50# VSUBS nfet_03v3 ad=0.13p pd=1.02u as=0.13p ps=1.02u w=0.5u l=0.5u
+X1 a_n154_n50# a_n254_n94# a_n342_n50# VSUBS nfet_03v3 ad=0.13p pd=1.02u as=0.22p ps=1.88u w=0.5u l=0.5u
+X2 a_254_n50# a_154_n94# a_50_n50# VSUBS nfet_03v3 ad=0.22p pd=1.88u as=0.13p ps=1.02u w=0.5u l=0.5u
+.ends
+
+.subckt nmos_3p3_8FEA4B a_n52_n50# a_52_n94# a_152_n50# a_n240_n50# a_n152_n94# VSUBS
+X0 a_152_n50# a_52_n94# a_n52_n50# VSUBS nfet_03v3 ad=0.22p pd=1.88u as=0.13p ps=1.02u w=0.5u l=0.5u
+X1 a_n52_n50# a_n152_n94# a_n240_n50# VSUBS nfet_03v3 ad=0.13p pd=1.02u as=0.22p ps=1.88u w=0.5u l=0.5u
+.ends
+
+.subckt pmos_3p3_KG2TLV a_n52_n50# w_n326_n180# a_52_n94# a_152_n50# a_n240_n50# a_n152_n94#
+X0 a_152_n50# a_52_n94# a_n52_n50# w_n326_n180# pfet_03v3 ad=0.22p pd=1.88u as=0.13p ps=1.02u w=0.5u l=0.5u
+X1 a_n52_n50# a_n152_n94# a_n240_n50# w_n326_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.22p ps=1.88u w=0.5u l=0.5u
+.ends
+
+.subckt pmos_3p3_K83TLV a_458_n50# a_n358_n50# a_n546_n50# a_254_n50# a_n154_n50#
++ a_n458_n94# a_n254_n94# a_50_n50# w_n632_n180# a_358_n94# a_n50_n94# a_154_n94#
+X0 a_50_n50# a_n50_n94# a_n154_n50# w_n632_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.13p ps=1.02u w=0.5u l=0.5u
+X1 a_n154_n50# a_n254_n94# a_n358_n50# w_n632_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.13p ps=1.02u w=0.5u l=0.5u
+X2 a_n358_n50# a_n458_n94# a_n546_n50# w_n632_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.22p ps=1.88u w=0.5u l=0.5u
+X3 a_254_n50# a_154_n94# a_50_n50# w_n632_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.13p ps=1.02u w=0.5u l=0.5u
+X4 a_458_n50# a_358_n94# a_254_n50# w_n632_n180# pfet_03v3 ad=0.22p pd=1.88u as=0.13p ps=1.02u w=0.5u l=0.5u
+.ends
+
+.subckt pmos_3p3_HMK9E7 a_n866_n94# a_662_n50# a_n562_n50# a_n662_n94# a_458_n50#
++ a_n358_n50# a_970_n94# a_254_n50# a_n154_n50# a_n458_n94# w_n1244_n180# a_766_n94#
++ a_n254_n94# a_562_n94# a_50_n50# a_358_n94# a_n50_n94# a_1070_n50# a_n970_n50# a_n1158_n50#
++ a_154_n94# a_n1070_n94# a_866_n50# a_n766_n50#
+X0 a_866_n50# a_766_n94# a_662_n50# w_n1244_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.13p ps=1.02u w=0.5u l=0.5u
+X1 a_50_n50# a_n50_n94# a_n154_n50# w_n1244_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.13p ps=1.02u w=0.5u l=0.5u
+X2 a_1070_n50# a_970_n94# a_866_n50# w_n1244_n180# pfet_03v3 ad=0.22p pd=1.88u as=0.13p ps=1.02u w=0.5u l=0.5u
+X3 a_n154_n50# a_n254_n94# a_n358_n50# w_n1244_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.13p ps=1.02u w=0.5u l=0.5u
+X4 a_n358_n50# a_n458_n94# a_n562_n50# w_n1244_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.13p ps=1.02u w=0.5u l=0.5u
+X5 a_n562_n50# a_n662_n94# a_n766_n50# w_n1244_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.13p ps=1.02u w=0.5u l=0.5u
+X6 a_n766_n50# a_n866_n94# a_n970_n50# w_n1244_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.13p ps=1.02u w=0.5u l=0.5u
+X7 a_n970_n50# a_n1070_n94# a_n1158_n50# w_n1244_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.22p ps=1.88u w=0.5u l=0.5u
+X8 a_254_n50# a_154_n94# a_50_n50# w_n1244_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.13p ps=1.02u w=0.5u l=0.5u
+X9 a_458_n50# a_358_n94# a_254_n50# w_n1244_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.13p ps=1.02u w=0.5u l=0.5u
+X10 a_662_n50# a_562_n94# a_458_n50# w_n1244_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.13p ps=1.02u w=0.5u l=0.5u
+.ends
+
+.subckt PFD_2
+Xnmos_3p3_3JEA4B_0 m1_29_n1176# m1_29_n1176# m1_711_n317# a_2150_n931# m1_711_n317#
++ a_2150_n931# a_2150_n931# VSUBS nmos_3p3_3JEA4B
+Xnmos_3p3_8FEA4B_0 m1_29_n1176# a_172_278# m1_94_n545# m1_94_n545# a_172_278# VSUBS
++ nmos_3p3_8FEA4B
+Xnmos_3p3_3JEA4B_1 m1_711_n317# m1_711_n317# m1_1055_n805# a_582_n305# m1_1055_n805#
++ a_582_n305# a_582_n305# VSUBS nmos_3p3_3JEA4B
+Xpmos_3p3_KG2TLV_0 a_582_n305# w_253_2# a_582_n305# m1_1654_n314# m1_1654_n314# a_582_n305#
++ pmos_3p3_KG2TLV
+Xnmos_3p3_8FEA4B_1 a_582_n305# a_174_n409# m1_94_n545# m1_94_n545# a_174_n409# VSUBS
++ nmos_3p3_8FEA4B
+Xnmos_3p3_3JEA4B_2 m1_29_n1176# m1_29_n1176# m1_1055_n805# a_582_n305# m1_1055_n805#
++ a_582_n305# a_582_n305# VSUBS nmos_3p3_3JEA4B
+Xpmos_3p3_KG2TLV_1 a_172_278# w_253_2# a_174_n409# m1_n1_460# m1_n1_460# a_174_n409#
++ pmos_3p3_KG2TLV
+Xnmos_3p3_8FEA4B_2 a_172_278# a_173_n912# m1_98_n794# m1_98_n794# a_173_n912# VSUBS
++ nmos_3p3_8FEA4B
+Xpmos_3p3_KG2TLV_2 m1_n1_460# w_253_2# a_1730_n81# m1_1654_n314# m1_1654_n314# a_1730_n81#
++ pmos_3p3_KG2TLV
+Xnmos_3p3_8FEA4B_3 m1_98_n794# a_2150_n931# m1_29_n1176# m1_29_n1176# a_2150_n931#
++ VSUBS nmos_3p3_8FEA4B
+Xpmos_3p3_K83TLV_0 m1_711_n317# m1_711_n317# m1_n1_460# m1_n1_460# m1_n1_460# a_582_n305#
++ a_582_n305# m1_711_n317# w_253_2# a_582_n305# a_582_n305# a_582_n305# pmos_3p3_K83TLV
+Xpmos_3p3_HMK9E7_0 a_172_278# a_582_n305# a_582_n305# a_172_278# m1_n1_460# m1_n1_460#
++ a_172_278# a_582_n305# a_582_n305# a_172_278# w_253_2# a_172_278# a_172_278# a_172_278#
++ m1_n1_460# a_172_278# a_172_278# a_582_n305# a_582_n305# m1_n1_460# a_172_278# a_172_278#
++ m1_n1_460# m1_n1_460# pmos_3p3_HMK9E7
+.ends
+

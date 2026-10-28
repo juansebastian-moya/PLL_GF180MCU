@@ -1,0 +1,29 @@
+Flattening unmatched subcell pmos_3p3_VZX6F7 in circuit AND2_magic (0)(3 instances)
+Flattening unmatched subcell nmos_3p3_F2UGVV in circuit AND2_magic (0)(1 instance)
+Flattening unmatched subcell nmos_3p3_A2UGVV in circuit AND2_magic (0)(3 instances)
+
+Class AND2_magic (0):  Merged 5 parallel devices.
+Subcircuit summary:
+Circuit 1: AND2_magic                      |Circuit 2: AND                             
+-------------------------------------------|-------------------------------------------
+pfet_03v3 (6->3)                           |pfet_03v3 (3)                              
+nfet_03v3 (5->3)                           |nfet_03v3 (3)                              
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: AND2_magic                      |Circuit 2: AND                             
+-------------------------------------------|-------------------------------------------
+VSS                                        |VSS                                        
+B                                          |B                                          
+A                                          |A                                          
+VOUT                                       |VOUT                                       
+VDD                                        |VDD                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes AND2_magic and AND are equivalent.
+
+Final result: Circuits match uniquely.
+.

@@ -1,0 +1,17 @@
+** sch_path: /home/moya/Documents/EuroCDP/ms_IPs/PLL/PLL-main/schematic/xschem/TR_Gate.sch
+**.subckt TR_Gate OUT VDD VSS IN CLK
+*.iopin VDD
+*.iopin VSS
+*.ipin IN
+*.opin OUT
+*.ipin CLK
+XM1 IN net1 OUT VDD pfet_03v3 L=0.5u W=3.36u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM2 IN CLK OUT VSS nfet_03v3 L=0.5u W=3.36u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM3 net1 CLK VDD VDD pfet_03v3 L=0.5u W=3.36u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM4 net1 CLK VSS VSS nfet_03v3 L=0.5u W=1.68u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+**.ends
+.end

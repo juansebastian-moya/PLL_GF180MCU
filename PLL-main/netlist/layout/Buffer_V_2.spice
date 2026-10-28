@@ -1,0 +1,18 @@
+* NGSPICE file created from Buffer_V_2.ext - technology: gf180mcuD
+
+.subckt nmos_3p3_MGEA4B a_n138_n50# a_50_n50# a_n50_n94# VSUBS
+X0 a_50_n50# a_n50_n94# a_n138_n50# VSUBS nfet_03v3 ad=0.22p pd=1.88u as=0.22p ps=1.88u w=0.5u l=0.5u
+.ends
+
+.subckt pmos_3p3_KG2TLV a_n52_n50# w_n326_n180# a_52_n94# a_152_n50# a_n240_n50# a_n152_n94#
+X0 a_152_n50# a_52_n94# a_n52_n50# w_n326_n180# pfet_03v3 ad=0.22p pd=1.88u as=0.13p ps=1.02u w=0.5u l=0.5u
+X1 a_n52_n50# a_n152_n94# a_n240_n50# w_n326_n180# pfet_03v3 ad=0.13p pd=1.02u as=0.22p ps=1.88u w=0.5u l=0.5u
+.ends
+
+.subckt Buffer_V_2 IN out VDD VSS
+Xnmos_3p3_MGEA4B_0 a_550_n4# VSS IN VSS nmos_3p3_MGEA4B
+Xnmos_3p3_MGEA4B_1 VSS out a_550_n4# VSS nmos_3p3_MGEA4B
+Xpmos_3p3_KG2TLV_0 a_550_n4# VDD IN VDD VDD IN pmos_3p3_KG2TLV
+Xpmos_3p3_KG2TLV_1 out VDD a_550_n4# VDD VDD a_550_n4# pmos_3p3_KG2TLV
+.ends
+

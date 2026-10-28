@@ -1,0 +1,6 @@
+** sch_path: /home/moya/Documents/EuroCDP/ms_IPs/PLL/PLL-main/schematic/xschem/Res_74k.sch
+.subckt Res_74k P VDD M
+*.PININFO P:B VDD:B M:B
+XR1 M P VDD ppolyf_u r_width=1.1e-6 r_length=195e-6 m=1
+XR2 VDD VDD VDD ppolyf_u r_width=48.4e-6 r_length=2.6e-6 m=1
+.ends
